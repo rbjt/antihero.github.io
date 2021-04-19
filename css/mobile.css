@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  #menu ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #us {
+    align-items: center;
+    flex-direction: column;
+  }
+}

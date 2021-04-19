@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap");
+
+@import url(mobile.css);
+
+* {
+  box-sizing: border-box;
+  line-height: 1.7rem;
+  font-family: "Oxanium";
+  font-size: 21px;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  background: url("../img/logo08.svg") no-repeat center center;
+  height: 110px;
+  margin: 1rem 0 1.7rem;
+  width: 100%;
+}
+
+#antihero {
+  background: #fff;
+  color: #000;
+  text-align: center;
+}
+
+#antihero h1 {
+  padding: 2rem 0.3rem;
+}
+
+body {
+  background: #000;
+}
+
+#contact p {
+  padding: 1.7rem 1.7rem 0;
+}
+
+#contact strong {
+  background: #fff;
+  color: #000;
+}
+
+#container * {
+  z-index: 1;
+}
+
+#container {
+  align-items: center;
+  background: url(../img/mainPic01.jpg) no-repeat center center/cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  width: 95%;
+}
+
+#container::before {
+  background: rgba(252, 255, 0, 0.8);
+  content: "";
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+}
+
+#description {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  text-align: center;
+}
+
+#description h2 {
+  color: #000;
+  line-height: 2.7rem;
+  font-family: Changa One, Roboto;
+  font-size: 1.7rem;
+  padding: 0 11px;
+}
+
+#description i {
+  font-size: 1.9rem;
+}
+
+#footer {
+  color: #fff;
+  text-align: center;
+}
+
+#footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#image {
+  background: url(../img/usPic01.jpg) no-repeat center center/cover;
+  border-radius: 5px;
+  height: 250px;
+  margin: 12px 0 7px;
+  width: 97%;
+}
+
+#menu {
+  background: #fcf742;
+  margin: 7px 0 0;
+  text-align: center;
+  width: 87%;
+}
+
+#menu ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+#menu ul li a {
+  color: #222;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.7rem 1.7rem;
+  text-decoration: none;
+}
+
+#social {
+  margin: 1.7rem 0;
+}
+
+#us {
+  color: #ddd;
+  display: flex;
+  flex: 0;
+  flex-shrink: 0;
+  font-weight: 300;
+}
+
+#us p {
+  text-align: justify;
+  font-size: 21px;
+  margin: 12px;
+}
