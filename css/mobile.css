@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
   #menu ul {
-    display: flex;
+    display: none;
     flex-direction: column;
   }
 
