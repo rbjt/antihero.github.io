@@ -134,6 +134,7 @@ body {
 }
 
 #menu {
+  display: none;
   background: #fcf742;
   margin: 7px 0 0;
   text-align: center;
